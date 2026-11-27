@@ -10,7 +10,7 @@ class student:
 
 
     def get_marks(self):
-        return self.__marks
+        return self.__marks 
 
     
     def set_marks(self,marks):
@@ -20,7 +20,8 @@ class student:
 
     def calculate_grade(self):
         return calculate_grade(self.__marks)
-        
+
+    
 
     def display(self):
         print("name of student is:",self.name)
